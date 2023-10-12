@@ -17,7 +17,7 @@ def ValueError(param):
     pass
 
 
-def calculate(first_operand: int, second_operand: int, operator: str) -> print | float:  # : int -> int | float: все это указываем для простоты чтения, того что плучаем на входе и выходе
+def calculate(first_operand: int, second_operand: int, operator: str) -> int | float:  # : int -> int | float: все это указываем для простоты чтения, того что плучаем на входе и выходе
     """конструкция match похожа на конструкцию if/else/elif, которая выполняет определенные действия в зависимости от некоторого условия.
     Однако функциональность match гораздо шире - она также позволяет извлечь данные из составных типов и применить действия к различным частям объектов."""
     match operator:
@@ -38,7 +38,7 @@ def calculate(first_operand: int, second_operand: int, operator: str) -> print |
 
 
 
-def calculate_discount(purchase_amount: float, discount_amount: print) -> float:
+def calculate_discount(purchase_amount: float, discount_amount: int) -> float:
     """
 
     :rtype: object
